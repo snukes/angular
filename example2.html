@@ -1,0 +1,19 @@
+<!doctype html>
+<html ng-app="todoApp">
+	<head>
+		<title>Example 2</title>
+		<script type="text/javascript" src="source/js/angular.js"></script>
+		<script type="text/javascript" src="source/js/underscore.js"></script>
+		<script type="text/javascript" src="source/js/todo.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="source/css/bootstrap.css">
+	</head>
+	<body>
+		<div ng-controller="TodoController">
+			<h2>Total todos: {{totalTodos}}</h2>
+			<ul class="unstyled">
+				<li ng-repeat></li>
+			</ul>
+		</div>
+	</body>
+</html>
